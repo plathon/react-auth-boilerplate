@@ -1,0 +1,7 @@
+{
+  "generator-react-webpack": {
+    "appName": "reactAuthBoilerplate",
+    "style": "css",
+    "postcss": false
+  }
+}
