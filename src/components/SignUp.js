@@ -1,5 +1,7 @@
 import React from 'react';
 
+import validation from 'React-Form-Validation';
+
 class SignUpComponent extends React.Component {
   render(){
     return(
