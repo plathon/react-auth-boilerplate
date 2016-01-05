@@ -1,6 +1,12 @@
 import React from 'react';
 
-import validation from 'React-Form-Validation';
+import {
+  Validate,
+  IsEmail,
+  IsRequired,
+  HasNumber,
+  HasLength,
+  AreSame} from './React-Form-Validation/lib/validation'
 
 class SignUpComponent extends React.Component {
   render(){
