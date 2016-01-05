@@ -8,6 +8,8 @@ import {
   HasLength,
   AreSame} from './React-Form-Validation/lib/validation'
 
+import {valid, invalid} from './React-Form-Validation/lib/Rules'
+
 class SignUpComponent extends React.Component {
   render(){
     return(
