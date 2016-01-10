@@ -1,4 +1,13 @@
 import React from 'react';
+import {
+  Validate,
+  IsEmail,
+  IsRequired,
+  HasNumber,
+  HasLength,
+  AreSame} from './React-Form-Validation/lib/validation'
+
+import {valid, invalid} from './React-Form-Validation/lib/Rules'
 
 class SignInComponent extends React.Component {
   render(){
